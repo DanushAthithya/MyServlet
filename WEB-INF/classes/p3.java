@@ -13,9 +13,9 @@ public class p3 extends HttpServlet{
     private String message;
     public void init()
     {
-        obj.name="Babiana Roy";
+        obj.name="Danush Athithya";
         obj.age=20;
-        obj.phn=638294689;
+        obj.phn=988443961;
         message="";
     }
     public void doGet(HttpServletRequest req,HttpServletResponse response)throws ServletException,IOException{

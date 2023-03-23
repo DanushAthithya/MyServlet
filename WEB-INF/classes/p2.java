@@ -23,9 +23,9 @@ public class p2 extends HttpServlet{
         obj[0]=new Obj();
         obj[1]=new Obj();
         obj[2]=new Obj();
-        obj[0].setData(1, "Babiana", 1);
-        obj[1].setData(2, "Roy", 5);
-        obj[2].setData(3, "Babloo", 6);
+        obj[0].setData(1, "Danush", 1);
+        obj[1].setData(2, "Athithya", 5);
+        obj[2].setData(3, "DARK", 6);
     }
     public void doGet(HttpServletRequest req,HttpServletResponse response)throws ServletException,IOException{
         response.setContentType("text/html");
