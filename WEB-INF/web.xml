@@ -1,0 +1,191 @@
+<web-app>
+    <!-- Ex5_1 -->
+
+    <servlet>
+        <servlet-name>
+            Hello
+        </servlet-name>
+        <servlet-class>
+            p1
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            Hello
+        </servlet-name>
+        <url-pattern>
+            /HelloWorld
+        </url-pattern>
+    </servlet-mapping>
+
+
+    <!--Assign 1 -->
+    <servlet>
+        <servlet-name>
+            prog2
+        </servlet-name>
+        <servlet-class>
+            p2
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            prog2
+        </servlet-name>
+        <url-pattern>
+            /Progr1
+        </url-pattern>
+    </servlet-mapping>
+
+    <!--Assign 2 -->
+    <servlet>
+        <servlet-name>
+            prog3
+        </servlet-name>
+        <servlet-class>
+            p3
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            prog3
+        </servlet-name>
+        <url-pattern>
+            /Progr2
+        </url-pattern>
+    </servlet-mapping>
+
+    <!-- Ex 5_2 -->
+
+    <servlet>
+        <servlet-name>
+            2ndpag
+        </servlet-name>
+        <servlet-class>
+            p4
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            2ndpag
+        </servlet-name>
+        <url-pattern>
+            /2ndpage
+        </url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>
+            3rdpag
+        </servlet-name>
+        <servlet-class>
+            p5
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            3rdpag
+        </servlet-name>
+        <url-pattern>
+            /3rdpage
+        </url-pattern>
+    </servlet-mapping>
+
+    <!-- Ex5_3 -->
+
+    <servlet>
+        <servlet-name>
+            4thpag
+        </servlet-name>
+        <servlet-class>
+            p6
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            4thpag
+        </servlet-name>
+        <url-pattern>
+            /4thpage
+        </url-pattern>
+    </servlet-mapping>
+
+    <!-- EX6 -->
+    <!-- Ex6_1 -->
+    <servlet>
+        <servlet-name>
+            prog7
+        </servlet-name>
+        <servlet-class>
+            p7
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            prog7
+        </servlet-name>
+        <url-pattern>
+            /ex6_1
+        </url-pattern>
+    </servlet-mapping>
+    
+    <!-- Ex6_2 -->
+    
+    <servlet>
+        <servlet-name>
+            prog8
+        </servlet-name>
+        <servlet-class>
+            p8
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            prog8
+        </servlet-name>
+        <url-pattern>
+            /ex6_2
+        </url-pattern>
+    </servlet-mapping>
+    
+    <!-- Ex6_3 -->
+    
+    <servlet>
+        <servlet-name>
+            prog9
+        </servlet-name>
+        <servlet-class>
+            p9
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            prog9
+        </servlet-name>
+        <url-pattern>
+            /ex6_3
+        </url-pattern>
+    </servlet-mapping>
+    
+    
+    <!-- Ex6_4 -->
+
+    <servlet>
+        <servlet-name>
+            prog10
+        </servlet-name>
+        <servlet-class>
+            p10
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            prog10
+        </servlet-name>
+        <url-pattern>
+            /ex6_4
+        </url-pattern>
+    </servlet-mapping>
+
+</web-app>
