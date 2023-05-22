@@ -2,7 +2,7 @@ import java.io.*;
 import javax.servlet.http.*;  
 import javax.servlet.*;  
 
-class Obje{
+class Objec{
     public String username;
     public String password;
     public void setData(String na,String ra)
@@ -13,7 +13,7 @@ class Obje{
 }
 
 public class p6 extends HttpServlet{
-    public Obje[] obj=new Obje[4];
+    public Objec[] obj=new Objec[4];
     private String ran;
     private String nam;
     public int hit;
@@ -21,9 +21,9 @@ public class p6 extends HttpServlet{
     public void init()
     {
         hit=0;
-        obj[0]=new Obje();
-        obj[1]=new Obje();
-        obj[2]=new Obje();
+        obj[0]=new Objec();
+        obj[1]=new Objec();
+        obj[2]=new Objec();
         obj[0].setData("Danush", "1234");
         obj[1].setData("Athithya", "5678");
         obj[2].setData("DARK", "9012");

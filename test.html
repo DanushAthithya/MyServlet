@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script>
+            function validation()
+            {
+                if(verp())
+                {
+                    window.alert("Invalid Password");
+                }
+                else if(veru())
+                {
+                    window.alert("Invalid Username");
+                }
+                else{
+                    window.open("movie");
+                }
+            }
+            function veru()
+            {
+                var username="Danush19";
+                var pattern=/^[a-zA-Z][a-zA-Z0-9.,$;@]+$/;
+                if(pattern.test(document.getElementById("user").value)&&username==document.getElementById("user").value){
+                    return false;
+                }
+                else{
+                return true;
+                }
+            }
+            function verp()
+            {
+                var password="athijudo"
+                var pattern=/^[\d\D]{6,14}$/;
+                if(pattern.test(document.getElementById("pass").value)&&password==document.getElementById("pass").value){
+                    return false;
+                }
+                else{
+                return true;
+                }
+            }
+
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="text" name="user" id="user"><br>
+            <input type="password" name="pass" id="pass"><br>
+            <button onclick="validation()">Submit</button>
+            <br><br>
+            <p>username:Danush19 password:athijudo</p>
+        </form>
+    </body>
+</html>

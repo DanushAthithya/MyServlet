@@ -188,4 +188,38 @@
         </url-pattern>
     </servlet-mapping>
 
+    <!-- Test-->
+    <servlet>
+        <servlet-name>
+            movi
+        </servlet-name>
+        <servlet-class>
+            movies
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            movi
+        </servlet-name>
+        <url-pattern>
+            /movie
+        </url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>
+            comm
+        </servlet-name>
+        <servlet-class>
+            comment
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            comm
+        </servlet-name>
+        <url-pattern>
+            /commen
+        </url-pattern>
+    </servlet-mapping>
 </web-app>
